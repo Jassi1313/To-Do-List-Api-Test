@@ -1,0 +1,1 @@
+export const todoAppApiEndpointBaseUrl = process.env.REACT_APP_TODO_APP_API_ENDPOINT as string;
