@@ -20,6 +20,9 @@ Runs following unit tests using React Testing Library and Jest
 ![image](https://user-images.githubusercontent.com/20395556/140605796-c83fb771-df01-43e9-bfa6-9d8a948dcbe4.png)
 
 ### `npm run cypress:headless`
+Pre Requesties for these tests are service should be running locally
+if you want to run the tests on integration enviornment please updaet the url 'ApiBaseUrl' in cypress.json file
+
 Runs following Cypress E2E tests in headless mode. If you want to spin up the GUI instead run ```npm run cypress```
 
 ![image](https://user-images.githubusercontent.com/20395556/140605760-232f71e6-8d00-40fb-a97c-9b900daf80d8.png)
